@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>import test1</title>
+
+        <script>
+            function btn(){
+                alert("제출되었습니다.");
+            }
+        </script>
+    </head>
+    <body>
+        <h1>import 활동 신청</h1>
+        <p>
+            <b>안녕하세요 import입니다. 활동에 대한 내용을 숙지 후 신청 부탁드립니다.</b>
+
+            <ul>
+                <li><a href="https://www.google.co.kr">파이썬</a></li>
+                <a href="https://www.google.co.kr"><img src="data:image/jpeg;base64,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", alt="python" /></a>
+                
+                <ol>
+                    <li>기초</li>
+                    <li>토이 프로젝트</li>
+                </ol>
+                <li><a href="https://www.google.co.kr">html+css+js</a></li>
+                <a href="https://www.google.co.kr"><img src="https://blog.kakaocdn.net/dn/dJwvsZ/btq8RTMxcOV/pTbwkWk7Q5YIi0RQ3i1vGk/img.jpg" alt="html-css-js" width="300" /></a>
+
+                <ol>
+                    <li>html + css</li>
+                    <li>js</li>
+                </ol>
+            </ul>
+        </p>
+
+        <br/>
+
+        <form>
+            <p>
+                <label for="name">이름:</label>
+                <input type="text" id="name" placeholder="이름을 입력해 주세요">
+            </p>
+            <p>
+                <label for="number">학번:</label>
+                <input type="number" id="number" placeholder="학번을 입력해 주세요">
+            </p>
+            <p>
+                <label for="department">학과:</label>
+                <input type="text" id="department" placeholder="학과를 입력해 주세요">
+            </p>
+            <p>
+                <label for="gender">성별:</label>
+                <label for="man">남</label>
+                <input id="man" type="radio" name="gender" />
+                <label for="woman">여</label>
+                <input id="woman" type="radio" name="gender" />
+            </p>
+            <p>
+                <label for="call">전화번호:</label>
+                <input type="text" id="call" placeholder="전화번호를 입력해 주세요">
+            </p>
+            <p>
+                <label for="department">학과:</label>
+                <input type="text" id="department" placeholder="학과를 입력해 주세요">
+            </p>
+            <br/>
+            <p>
+                <label for="program">프로그램:</label>
+                <input id="python" type="checkbox" name="program" />
+                <label for="python">파이썬</label>
+                <input id="html" type="checkbox" name="program" />
+                <label for="html">html</label>
+            </p>
+
+            <br/>
+            <button onclick="javascript:btn()">제출하기</button>
+        </form>
+    </body>
+</html>
